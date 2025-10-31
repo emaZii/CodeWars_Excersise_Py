@@ -7,6 +7,8 @@ For example, repeats([4,5,7,5,4,8]) = 15 because only the numbers 7 and 8 occur 
 More examples in the test cases.
 
 Good luck!
+
+Level: 7kyu
 </summary>
 '''
 

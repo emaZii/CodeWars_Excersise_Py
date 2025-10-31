@@ -16,6 +16,8 @@ your function should return Victoria, Puerto Rico.
 
 Notes:
 The input array will always be valid and formatted as in the example above.
+
+level : 7kyu
 </summary>
 
 '''
