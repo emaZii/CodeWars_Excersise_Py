@@ -23,3 +23,5 @@ Problemi e soluzioni
 -Sets
 -Sorting
 -Strings
+
+![Codewars](https://www.codewars.com/users/Zigna/badges/large)
