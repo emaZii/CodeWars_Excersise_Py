@@ -28,3 +28,10 @@ def get_the_vowels(word):
         if letter == "aeiou"[current_vowel_index%5]:
              current_vowel_index += 1
     return current_vowel_index
+
+
+def main():
+    get_the_vowels("agrtertyfikfmroyrntbvsukldkfa")
+
+if __name__ == "__main__":
+    main()

@@ -11,3 +11,10 @@
 
 def greet(name):
     return f"Hello, {name} how are you doing today?"
+
+
+def main():
+    print(greet(""))
+
+if __name__ == "__main__":
+    main()

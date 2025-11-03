@@ -23,3 +23,13 @@ def are_you_playing_banjo(name):
         return name + " plays banjo"
     else:
         return name + " does not play banjo"
+
+
+def main():
+    print(are_you_playing_banjo(""))
+    print(are_you_playing_banjo("R"))
+    print(are_you_playing_banjo("r"))
+
+
+if __name__ == "__main__":
+    main()

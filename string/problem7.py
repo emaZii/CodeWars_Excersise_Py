@@ -16,3 +16,11 @@ def greet(name, owner):
         return f'Hello boss'
     else:
         return 	'Hello guest'
+
+
+def main():
+    greeting = "Hello boss"
+    print(greet(greeting))
+
+if __name__ == "__main__":
+    main()
