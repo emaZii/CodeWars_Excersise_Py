@@ -18,13 +18,8 @@ LEVEL 6KYU
 
 
 def duplicate_count(text):
-    text = text.lower()
-    count = 0
-    s = set(text)
-    for i in s:
-        if text.count(i) > 1:
-            count += 1
-    return count
+    s = text.lower()
+    return sum(1 for char in set(s) if s.count(char) > 1)
 
 def main():
     print(duplicate_count("aabcdee"))

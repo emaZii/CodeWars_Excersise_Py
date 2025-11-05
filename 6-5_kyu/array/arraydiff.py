@@ -1,20 +1,28 @@
 """
 <summary>
-Implement a function that computes the difference between two lists. The function should remove all occurrences of elements from the first list (a) that are present in the second list (b). The order of elements in the first list should be preserved in the result.
+    Implement a function that computes the difference between two lists. The function should remove all occurrences of elements from the first list (a) that are present in the second list (b). The order of elements in the first list should be preserved in the result.
 
-Examples
-If a = [1, 2] and b = [1], the result should be [2].
+    Examples
+    If a = [1, 2] and b = [1], the result should be [2].
 
-If a = [1, 2, 2, 2, 3] and b = [2], the result should be [1, 3].
+    If a = [1, 2, 2, 2, 3] and b = [2], the result should be [1, 3].
 
-ArraysFundamentalsAlgorithms
-level 6kyu
+    ArraysFundamentalsAlgorithms
+    level 6kyu
 </summary>
 
 """
 def array_diff(a, b):
-    list =[]
+    list = []
     for x in a:
         if x not in b:
             list.append(x)
     return list
+
+
+def main():
+    print(array_diff([1, 2], [1]))
+    print(array_diff([1, 2], [2]))
+
+if __name__ == '__main__':
+    main()
